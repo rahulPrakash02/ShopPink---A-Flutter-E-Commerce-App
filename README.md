@@ -1,6 +1,6 @@
 # pinkshop
 
-A new Flutter project.
+A basic E-Commerce Application developed using Flutter. Documentation and Readme will be updated regularly.
 
 ## Getting Started
 
