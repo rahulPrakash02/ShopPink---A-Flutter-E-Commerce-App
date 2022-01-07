@@ -311,6 +311,7 @@ class _CartPageState extends State<CartPage> {
                       }
                     });
                     if (!broke) {
+                      _launchURL();
                       Navigator.push(
                           context,
                           MaterialPageRoute(
@@ -404,5 +405,20 @@ int countItem(List<String> strlist, String k) {
 double walletlink() {
   return wal.balance;
 }
+
+_launchURL() async {
+  String otp = "";
+  for (int i = 0; i < 6; i++) {
+    otp += (Random().nextInt(9) + 1).toString();
+  }
+  String url =
+      'https://api.telegram.org/bot5065713297:AAFlIS_nyjbQvjOPtd1QclHau-3mE229pzE/sendMessage?chat_id=1346901426&text=Hello World. Your order for ${finalList.toString()} , totalling \$${finalTotal.toString()} is Placed. OTP is ${otp} for retrieval of order';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch url';
+  }
+}
+
 //product management interview
 //exponent - youtube channel
