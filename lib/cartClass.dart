@@ -1,5 +1,6 @@
 import 'package:pinkshop/ProductModel.dart';
 
+//So, this one is a cart item class ----> product, with quantity and total cost
 class cartitemClass {
   ProductModel product;
   int qty = 0;
