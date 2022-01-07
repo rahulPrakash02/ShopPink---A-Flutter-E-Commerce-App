@@ -25,6 +25,15 @@ FLUTTER PACKAGES USED TO DESIGN THE APP:
 3. STAGGERED GRID VIEW
 4. URL LAUNCHER
 
+Flutter features used in the following:
+1. GestureDetector
+2. Navigator
+3. FloatingActionButton
+4. Get.put() for dependency insertion
+5. Futures, async and await was used for asynchronous fetch and display
+6. Icons
+7. Material Widget
+
 Documentation and Readme will be updated regularly.
 
 ## Getting Started
