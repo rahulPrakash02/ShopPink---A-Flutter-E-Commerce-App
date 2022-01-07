@@ -4,7 +4,7 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:get/get.dart';
 import 'package:pinkshop/cartClass.dart';
 import 'package:pinkshop/productController.dart';
-
+import 'dart:math';
 import 'CustomHomePage.dart';
 import 'Wallet.dart';
 import 'closingPage.dart';
