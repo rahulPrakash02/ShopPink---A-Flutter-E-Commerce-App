@@ -3,6 +3,8 @@ import 'package:pinkshop/cartImplementation.dart';
 
 import 'CustomHomePage.dart';
 
+
+//A Landing page for a successful transaction.
 class closingPage extends StatelessWidget {
   closingPage(this.list, this.total);
 
@@ -87,6 +89,7 @@ class closingPage extends StatelessWidget {
   }
 }
 
+//Landing Page for the failed transaction
 class altClosingPage extends StatelessWidget {
   const altClosingPage({Key? key}) : super(key: key);
 
