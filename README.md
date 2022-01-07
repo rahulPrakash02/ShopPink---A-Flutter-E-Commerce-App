@@ -33,6 +33,12 @@ Flutter features used in the following:
 5. Futures, async and await was used for asynchronous fetch and display
 6. Icons
 7. Material Widget
+8. Custom Widgets
+9. Dart Classes and Objects
+
+Other Features:
+Telegram Alert
+Wallet Model
 
 Documentation and Readme will be updated regularly.
 
